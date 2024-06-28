@@ -1,0 +1,74 @@
+.single {
+  padding: 100px 0 28px 0;
+}
+
+.single-all {
+  display: flex;
+  gap: 20px;
+}
+
+.single-left {
+  width: 50%;
+}
+
+.single-left img {
+  width: 100%;
+}
+
+.single-right {
+  width: 50%;
+}
+
+.single-right hr {
+  margin: 10px 0;
+}
+
+.single-right h1 {
+  color: rgb(3, 0, 52);
+  line-height: 40px;
+}
+
+.single-rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.single-price {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-top: 5px;
+}
+
+.single-price h4 {
+  color: grey;
+  text-decoration: line-through;
+  font-weight: 600;
+}
+
+.single-price h3 {
+  color: rgb(3, 0, 52);
+}
+
+.single-right button {
+  background-color: blue;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+@media (max-width: 500px) {
+  .single-all {
+    flex-direction: column;
+  }
+  .single-left {
+    width: 100%;
+  }
+  .single-right {
+    width: 100%;
+  }
+}
